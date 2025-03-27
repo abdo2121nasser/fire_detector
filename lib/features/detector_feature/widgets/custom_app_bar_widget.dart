@@ -12,13 +12,13 @@ class CustomAppBarWidget extends StatelessWidget implements PreferredSizeWidget 
   Widget build(BuildContext context) {
     return AppBar(
       leading: IconButton(onPressed: () {}, icon: const Icon(Icons.history)),
-      backgroundColor: AppColor.secondaryColor,
+      backgroundColor: kSecondaryColor,
       title: Text(
         "Detect Fire",
         style: TextStyle(
-            color: AppColor.textColor,
+            color: kTextColor,
             fontWeight: FontWeight.bold,
-            fontSize: AppFontSize.s20),
+            fontSize: k20Sp),
       ),
       centerTitle: true,
     );
