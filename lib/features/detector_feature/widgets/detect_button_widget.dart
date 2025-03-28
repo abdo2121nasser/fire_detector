@@ -12,10 +12,10 @@ class DetectButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GeneralButtonWidget(
-        label: "Detect",
+        label: "Detect Wild Fire",
         function: (){},
-        textColor: kTextColor,
-        backgroundColor: kPrimaryColor,
+        textColor: kBlackColor,
+        backgroundColor: kLightFireColor,
         borderRadius: k14R);
   }
 }

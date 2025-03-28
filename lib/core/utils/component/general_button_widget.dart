@@ -31,7 +31,7 @@ class GeneralButtonWidget extends StatelessWidget {
         ),
         child: Text(
           label,
-          style: TextStyle(fontSize: 20, color: textColor),
+          style: TextStyle(fontSize: k16Sp, color: textColor),
         ));
   }
 }
